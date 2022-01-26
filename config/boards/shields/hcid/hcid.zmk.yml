@@ -4,8 +4,10 @@ name: HCID
 type: shield
 url: https://github.com/nazzacode/zmk-config 
 requires: [nice_nano_v2]
+exposes: [i2c_oled]
 features:
   - keys
+  - display
 siblings:
   - hcid_left
   - hcid_right
