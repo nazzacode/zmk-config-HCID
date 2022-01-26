@@ -1,0 +1,11 @@
+file_format: "1"
+id: hcid
+name: HCID
+type: shield
+url: https://github.com/nazzacode/zmk-config 
+requires: [nice_nano_v2]
+features:
+  - keys
+siblings:
+  - hcid_left
+  - hcid_right
