@@ -1,9 +1,9 @@
 file_format: "1"
 id: hcid
-name: HCID
+name: Hcid
 type: shield
 url: https://github.com/nazzacode/zmk-config 
-requires: [nice_nano_v2]
+requires: [pro_micro]
 exposes: [i2c_oled]
 features:
   - keys
