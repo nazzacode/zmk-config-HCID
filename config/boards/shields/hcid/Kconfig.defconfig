@@ -2,12 +2,23 @@
 if SHIELD_HCID_LEFT
 
     config ZMK_KEYBOARD_NAME
-        default "HCID"
+        default "HCID v0.3"
 
     config ZMK_SPLIT_BLE_ROLE_CENTRAL
         default y
 
 endif # SHIELD_HCID_LEFT
+
+
+if SHIELD_HCID_RIGHT
+
+    config ZMK_KEYBOARD_NAME
+        default "HCID v0.3 right"
+
+    config ZMK_SPLIT_BLE_ROLE_CENTRAL
+        default n
+
+endif # SHIELD_HCID_RIGHT
 
 
 if SHIELD_HCID_LEFT || SHIELD_HCID_RIGHT
