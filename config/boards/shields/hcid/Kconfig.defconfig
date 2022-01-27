@@ -2,7 +2,7 @@
 if SHIELD_HCID_LEFT
 
     config ZMK_KEYBOARD_NAME
-        default "HCID v0.3"
+        default "HCID v0.3 left"
 
     config ZMK_SPLIT_BLE_ROLE_CENTRAL
         default y

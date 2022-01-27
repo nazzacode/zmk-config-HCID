@@ -27,5 +27,6 @@
 #define MIDDLE_NONES NONE(0, 0, 0)
 #define TRAILING_NONES NONE(0, 0, 0)
 
-// Include main artsey.io keymap
-#include "../../../hcid.dtsi"
+// Include main hcid.io keymap
+#include "hcid.dtsi"
+// #include "../../../hcid.dtsi"
